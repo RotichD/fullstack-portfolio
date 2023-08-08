@@ -47,9 +47,9 @@ export default function Uses() {
             errors.
           </Skill>
           <Skill title="Python">
-            New to myself, I'm learning through Codecademy's Comptuer Science
-            Path. I find learning a language with a different syntax challenging
-            but rewarding as it helps to cement coding concepts.
+            New to myself, I&apos;m learning through Codecademy&apos;s Comptuer
+            Science Path. I find learning a language with a different syntax
+            challenging but rewarding as it helps to cement coding concepts.
           </Skill>
         </SkillSection>
         <SkillSection title="FrontEnd">
@@ -76,7 +76,7 @@ export default function Uses() {
             Relational Databases using SQL
           </Skill>
           <Skill title="Prisma">
-            An ORM that I've recently tried out and enjoyed. Prisma greatly
+            An ORM that I&apos;ve recently tried out and enjoyed. Prisma greatly
             helped me to understand modeling relationships within a DB.
           </Skill>
         </SkillSection>
