@@ -1,4 +1,4 @@
-# Front Developer Portfolio | Dylan Rotich
+# Developer Portfolio | Dylan Rotich
 
 I decided to create a new portfolio with my new favorite tech tools: Next.js, TypeScript, and TailwindCSS.
 
