@@ -1,0 +1,24 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import eStore from './screenshot.png'
+
+export const article = {
+  author: 'Dylan Rotich',
+  date: '2023-08-06',
+  title: 'Understanding Relational Databases and the role of an ORM',
+  description:
+    'Coming out of Bootcamp, I had a basic understanding of MongoDB and Mongoose ORM but the concepts of DB and ORM never really cemented themselves in my understanding until my first project using Prisma ORM with a MySql database.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+While attending the UCB Coding Bootcamp, I was often told that the concepts would &apos;click&apos; one day, but I didn't realize when that would be. I wasn't satisfied with my understanding of the underlying concepts of web development so I decided to take the Codecademy Computer Science Professional Path and work on a challenging [Full Stack Project](https://github.com/RotichD/ecommerce-storefront).
+
+<Image src={eStore} alt="Screenshot of Ecommerce Store Project" />
+
+It was the combination of learning more about Relational Databases through PostgreSQL on Codecademy and working on a Full Stack E-Commerce Project that greatly improved my understanding of these concepts.
