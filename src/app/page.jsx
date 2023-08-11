@@ -169,7 +169,7 @@ function Resume() {
         ))}
       </ol>
       <Button
-        href="resume.pdf"
+        href="fullstack_resume.pdf"
         target="_blank"
         variant="secondary"
         className="group mt-6 w-full"
