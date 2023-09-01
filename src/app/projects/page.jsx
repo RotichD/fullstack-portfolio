@@ -83,7 +83,7 @@ export const metadata = {
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Projects: AKA Learning Opportunities"
+      title="Projects: Full Stack & Front End"
       intro="I've worked on many projects small and large including course work from Bootcamp and other learning resources. Here of some of my favorite and most comprehensive."
     >
       <ul
@@ -92,7 +92,7 @@ export default function Projects() {
       >
         {projects.map((project) => (
           <Card as="li" key={project.name}>
-            <div className="aspect-h-1 aspect-w-1 lg:aspect-none relative z-10 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-80 ">
+            <div className="aspect-h-1 aspect-w-1 lg:aspect-none relative z-10 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 h-60 lg:h-80 ">
               <Image
                 src={project.image}
                 alt="project image"
